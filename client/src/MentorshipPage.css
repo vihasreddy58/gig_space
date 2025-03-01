@@ -1,0 +1,50 @@
+.mentorship-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.mentors-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.mentor-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mentor-card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.mentor-card p {
+    margin: 5px 0;
+}
+
+.message-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.message-btn:hover {
+    background-color: #218838;
+}

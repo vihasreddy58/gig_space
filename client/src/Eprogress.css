@@ -1,0 +1,246 @@
+.my-projects {
+    padding: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-header {
+    margin-bottom: 10px;
+  }
+  
+  .project-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .project-deadline, 
+  .project-client, 
+  .project-due-amount {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .project-due-amount {
+    color: #ff0000; /* Example color for the due amount */
+    font-weight: bold;
+  }
+  
+  .progress-bar-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .progress-title {
+    margin-right: 10px;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background-color: #d1d5db;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .contact-client-btn,
+  .submit-work-btn {
+    background-color: #1d4ed8;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-work-btn {
+    text-decoration: none; /* Ensure the link does not have an underline */
+  }
+  
+  .contact-client-btn:hover,
+  .submit-work-btn:hover {
+    background-color: #1e40af;
+  }
+  
+  .github-link-btn {
+    background-color: #1d4ed8;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .github-link-btn:hover {
+    background-color: #1e40af;
+  }
+  
+  .contact-client-btn {
+    background-color: #1d4ed8;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; /* Ensure no underline on button text */
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-client-btn:hover {
+    background-color: #1e40af;
+  }
+
+  .star-rating {
+    font-size: 1.5rem;
+    color: #d3d3d3; /* Default color for unfilled stars */
+  }
+  
+  .star-rating .star.filled {
+    color: #ffcc00; /* Color for filled stars */
+  }
+
+  .testimonial-section {
+    margin-top: 2rem;
+  }
+  
+  .testimonial-section h3 {
+    font-size: 1.5rem;
+  }
+  
+  .testimonial-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .testimonial-section textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .testimonials-list {
+    margin-top: 1rem;
+  }
+  
+  .testimonial-item {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+
+  .testimonial-section {
+    margin-top: 2rem;
+  }
+  
+  .testimonial-section h3 {
+    font-size: 1.5rem;
+  }
+  
+  .testimonial-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .form-group select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .testimonial-section textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .testimonials-list {
+    margin-top: 1rem;
+  }
+  
+  .testimonial-item {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }

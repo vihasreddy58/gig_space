@@ -1,0 +1,140 @@
+/* General Layout and Typography */
+
+/* Flexbox Layout for Sidebar and Main Content */
+.other-gig-flex {
+  display: flex; /* Use flexbox to align the sidebar and main content */
+}
+
+/* Sidebar Styling */
+.other-gig-sidebar {
+  width: 250px; /* Adjust based on preference */
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  height: 100vh; /* Fixed full height */
+  left: 0;
+  box-sizing: border-box;
+  overflow-y: auto; /* Enable sidebar scrolling if content exceeds */
+}
+
+/* Main Content Styling */
+.other-gig-main-content {
+  flex: 1; /* Takes the remaining space */
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto; /* Make content area scrollable */
+  height: 100vh;
+  display: grid; /* Use grid layout for cards */
+  grid-gap: 20px; /* Space between cards */
+}
+
+/* Responsive Grid Layout for Cards */
+@media (min-width: 1024px) { /* For large screens, e.g., desktop */
+  .other-gig-main-content {
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { /* For medium screens, e.g., tablets */
+  .other-gig-main-content {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 767px) { /* For small screens, e.g., mobile */
+  .other-gig-main-content {
+    grid-template-columns: 1fr; /* 1 card per row */
+  }
+}
+
+/* Employee Card Styling */
+.employee-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 10px; /* Reduced padding */
+  border-radius: 8px;
+  text-align: center; /* Center align the text */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Soft shadow around the card */
+}
+
+.employee-card img {
+  width: 100%; /* Responsive image width */
+  height: auto; /* Maintain aspect ratio */
+  border-top-left-radius: 8px; /* Rounded corners for the top of the image */
+  border-top-right-radius: 8px;
+}
+
+.employee-card h3,
+.employee-card p {
+  margin: 5px 0; /* Slightly reduced margin for a tighter layout */
+}
+
+/* Additional styling for distinction in text */
+.employee-card p {
+  color: #666;
+  font-size: 0.85em; /* Slightly smaller font size */
+}
+
+.view-button {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-button:hover {
+  background-color: #2980b9;
+}
+
+/* Modal Styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.modal-content h3,
+.modal-content p {
+  margin: 10px 0;
+}
+
+.modal-content button {
+  display: block;
+  margin-top: 20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .other-gig-flex {
+    flex-direction: column; /* Stack sidebar and main content vertically */
+  }
+
+  .other-gig-sidebar {
+    width: 100%; /* Full width on small screens */
+    height: auto; /* Auto height */
+    position: relative; /* Sidebar scrolls with page on small screens */
+    margin-bottom: 10px; /* Space below sidebar */
+  }
+
+  .other-gig-main-content {
+    margin-left: 0; /* Remove left margin */
+    padding: 10px;
+  }
+}

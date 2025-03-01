@@ -1,0 +1,104 @@
+.my-projects {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-bar select {
+  width: 150px; /* Smaller width for dropdowns */
+  padding: 8px;
+  font-size: 14px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.project-header h3 {
+  font-weight: bold;
+}
+
+.project-deadline {
+  color: red;
+}
+
+.progress-bar-container {
+  margin: 10px 0;
+}
+
+.progress-title {
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+
+.buttons-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-client-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.submit-work-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Styles for Collaborate and Contact Collaborator buttons */
+.collaborate-btn {
+  background-color: #ffc107;
+  color: white;
+}
+
+.contact-collaborator-btn {
+  background-color: #6f42c1;
+  color: white;
+}

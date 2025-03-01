@@ -1,0 +1,53 @@
+.payment-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;  /* Full viewport width */
+    background-color: #f5f5f5; /* Optional background color */
+}
+
+.container-gig {
+    display: flex;
+    width: 85%;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel-gig {
+    width: 18vw;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 8px 0 0 8px;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.block-gig {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #0056b3;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.block-gig:hover {
+    background-color: #003f7f;
+}
+
+.right-panel-gig {
+    width: 40vw;
+    box-sizing: border-box;
+}
+
+.form-container-gig {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
